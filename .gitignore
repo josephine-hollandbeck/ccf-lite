@@ -218,3 +218,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Added for ccf-lite ---
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+# Cloud credentials
+.aws/
+.azure/
+*.pem
+*.key
+credentials.json
