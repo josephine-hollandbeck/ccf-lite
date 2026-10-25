@@ -15,12 +15,7 @@ common control framework mini: one control, tested once and mapped to several fr
 
 ## Why this exists
 
-<!-- WRITE TONIGHT. 4–6 sentences, in your own voice. Prompts to answer:
-  1. What problem does a common control framework solve? (one control, tested once, satisfies many frameworks)
-  2. Why did YOU build it? Tie it to your own background (the safety requirements register, the audit you co-facilitated, electrical/grid work).
-  3. What does it show that a resume line can't? (testable controls, automated evidence, human review of AI output)
-  4. One honest line: this is a demonstration on mock data, not a production program.
--->
+Most organizations answer to several frameworks at once and meet each one separately: one more binder, one more audit, one more evidence collection. A common control framework flips that: one control, tested once, mapped to many frameworks. I've built this kind of system before. As a licensed electrical administrator, I consolidated NFPA, OSHA, EPA, and state requirements into a single 72-topic register backed by controlled documents. As a security analyst, I co-facilitated a state cybersecurity audit and learned that **if a control isn't proven, it doesn't exist.** This project brings those lessons to information security: controls written to be tested, automated checks against evidence exports, and AI that speeds up mapping while a qualified human reviews every result. It runs on mock data and isn't a production program, but every design choice is one I'd defend in a real audit.
 
 ## Scope
 
