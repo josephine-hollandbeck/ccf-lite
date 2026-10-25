@@ -1,0 +1,31 @@
+# ccf-lite control set (Evening 2)
+# Write every control statement yourself. Test each one with:
+#   "Could an auditor pick a sample and prove this happened?"
+#
+# Fields per control:
+#   id          Short stable ID, e.g. IAM-01, CHG-01, LOG-01 (never reuse or renumber)
+#   title       A few words
+#   domain      access | change | logging | vuln | incident | vendor | backup | data | availability | ai
+#   statement   Who does what, how often, and what record it leaves
+#   owner       A role, not a person (e.g. "IT Operations Lead")
+#   frequency   continuous | daily | weekly | monthly | quarterly | annual | per-event
+#   type        preventive | detective | corrective
+#   automation  manual | semi | auto
+#   evidence    The record(s) an auditor would ask for
+#   test_idea   One line: how you'd test it
+#
+# Copy this block for each control, then delete the "#" in front of each line:
+#
+# - id:
+#   title:
+#   domain:
+#   statement: >
+#   owner:
+#   frequency:
+#   type:
+#   automation:
+#   evidence:
+#     -
+#   test_idea:
+
+controls: []
